@@ -1,1 +1,58 @@
+PART A: VISUALIZATION OF ACTIVATION FUNCTIONS 
 
+Implement and plot the following activation functions: 
+Sigmoid  
+Tanh  
+ReLU  
+Compare their: 
+Output range  
+Saturation regions  
+Gradient behavior  
+Computational efficiency  
+Typical applications  
+ 
+
+PART B: PERFORMANCE COMPARISON OF ACTIVATION FUNCTIONS 
+
+Train identical ANN architectures using: 
+Sigmoid  
+Tanh  
+ReLU  
+Record and compare: 
+Training accuracy  
+Validation accuracy  
+Training loss  
+Validation loss  
+Number of epochs required for convergence  
+Analyze which activation function performs best and justify the observations. 
+ 
+
+PART C: COMPARISON OF OPTIMIZATION ALGORITHMS 
+
+Train the same ANN using: 
+Stochastic Gradient Descent (SGD)  
+Momentum  
+RMSProp  
+Adam  
+Compare: 
+Training loss  
+Validation loss  
+Convergence speed  
+Final training accuracy  
+Final validation accuracy  
+Visualize: 
+Loss vs Epoch  
+Accuracy vs Epoch  
+Discuss which optimizer converges faster and produces better generalization. 
+ 
+
+PART D: DEEP LEARNING EXPERIMENT MANAGEMENT 
+
+Perform the following tasks: 
+Create a Google Colab notebook.  
+Mount Google Drive.  
+Save notebooks and trained models.  
+Create a GitHub repository.  
+Upload notebooks to GitHub.  
+Commit changes and maintain version history using Git.  
+Document the experiment using a README.md file.  
