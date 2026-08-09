@@ -1,1 +1,39 @@
+PART A: DATASET PREPARATION
+•	Perform the following tasks:
+•	Download an image dataset from Kaggle or use CIFAR-10.
+•	Load the dataset.
+•	Preprocess images by resizing and normalization.
+•	Split the dataset into training, validation, and testing sets.
+
+PART B: CNN MODEL IMPLEMENTATION
+Build a CNN model consisting of:
+•	Convolution layers
+•	ReLU activation
+•	Max Pooling layers
+•	Fully Connected layers
+•	Softmax output layer
+
+Compile the model using:
+•	Appropriate optimizer
+•	Cross-entropy loss function
+
+
+PART C: MODEL TRAINING AND EVALUATION
+Train the CNN model.
+Record:
+•	Training accuracy
+•	Validation accuracy
+•	Training loss
+•	Validation loss
+•	Testing accuracy
+Plot:
+•	Accuracy vs Epoch
+•	Loss vs Epoch
+
+PART D: PERFORMANCE ANALYSIS
+Analyze:
+•	Classification accuracy
+•	Confusion Matrix
+•	Sample predictions
+•	Misclassified images
 
