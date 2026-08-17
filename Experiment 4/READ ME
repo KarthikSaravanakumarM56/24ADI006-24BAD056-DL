@@ -1,1 +1,42 @@
+OBJECTIVES
+Students will be able to:
+•	Understand the concept of transfer learning.
+•	Apply pre-trained vision models for image recognition.
+•	Fine-tune models such as ResNet or AlexNet.
+•	Utilize Kaggle datasets and Hugging Face vision models.
+•	Compare transfer learning performance with custom CNN models.
+
+PROCEDURE
+PART A: DATASET PREPARATION
+Perform the following tasks:
+•	Download an image dataset from Kaggle.
+•	Load and preprocess the images.
+•	Split the dataset into training, validation, and testing sets.
+
+PART B: IMPLEMENTING TRANSFER LEARNING
+Load a pre-trained model such as:
+•	ResNet-50
+•	AlexNet
+Replace the final classification layer according to the dataset classes.
+Freeze the feature extraction layers.
+Compile the model.
+
+PART C: MODEL TRAINING AND PERFORMANCE EVALUATION
+Train the transfer learning model.
+Record:
+•	Training accuracy 
+•	Validation accuracy 
+•	Training loss 
+•	Validation loss 
+•	Test accuracy 
+Visualize:
+•	Accuracy vs Epoch 
+•	Loss vs Epoch
+
+PART D: USING HUGGING FACE PRE-TRAINED MODELS
+Perform the following tasks:
+•	Load a pre-trained vision model from Hugging Face. 
+•	Perform image classification on sample images. 
+•	Compare predictions with the transfer learning model. 
+•	Document observations and upload the notebook to GitHub.
 
