@@ -1,1 +1,43 @@
+PROCEDURE
+PART A: DATASET PREPARATION
+Perform the following tasks:
+•	Load the Tiny Shakespeare dataset from Hugging Face. 
+•	Explore the dataset and examine the text samples. 
+•	Convert the text into lowercase (if required). 
+•	Tokenize the text into individual words. 
+•	Build a vocabulary and assign a unique integer index to each word. 
+•	Generate input sequences for next-word prediction. 
+•	Apply sequence padding to obtain inputs of equal length. 
+•	Split the prepared sequences into training and validation datasets.
 
+
+PART B: IMPLEMENTING THE RNN MODEL
+Perform the following tasks:
+•	Create an Embedding layer to convert words into dense vector representations. 
+•	Add a Simple RNN layer to learn sequential dependencies in the text. 
+•	Add a Dense output layer with Softmax activation for next-word prediction. 
+•	Compile the model using an appropriate optimizer and loss function. 
+•	Display the model architecture and summary.
+
+
+PART C: COMPARISON OF OPTIMIZATION ALGORITHMS
+Perform the following tasks:
+•	Train the RNN model using the prepared training dataset. 
+•	Validate the model using the validation dataset. 
+•	Record: 
+o	Training accuracy 
+o	Validation accuracy 
+o	Training loss 
+o	Validation loss 
+•	Visualize: 
+o	Accuracy vs. Epoch 
+o	Loss vs. Epoch
+
+
+PART D: DEEP LEARNING EXPERIMENT MANAGEMENT
+Perform the following tasks:
+•	Provide a seed word or sentence as input to the trained model. 
+•	Generate text by repeatedly predicting the next word in the sequence. 
+•	Produce multiple text samples using different seed inputs. 
+•	Compare the generated text for coherence and contextual relevance. 
+•	Document the observations and upload the notebook to GitHub.
