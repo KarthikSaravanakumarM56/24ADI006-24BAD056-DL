@@ -1,1 +1,70 @@
+PART A: DATASET PREPARATION AND TEXT PREPROCESSING
+•	Perform the following tasks:
+•	Load a sentiment analysis dataset such as the IMDB Movie Reviews dataset.
+•	Explore the dataset and examine sample positive and negative reviews.
+•	Check the number of samples and sentiment class distribution.
+•	Perform text preprocessing using NLP libraries.
+•	Convert text to lowercase.
+•	Remove unnecessary punctuation and special characters.
+•	Remove stop words, if required.
+•	Tokenize the reviews into words/tokens.
+•	Convert the tokens into numerical sequences using a tokenizer.
+•	Build a vocabulary from the training reviews.
+•	Apply sequence padding to obtain equal-length input sequences.
+•	Encode sentiment labels into numerical form.
+•	Split the prepared dataset into training and testing/validation datasets.
+
+
+
+PART B: EMBEDDING GENERATION
+Perform the following tasks:
+•	Generate numerical representations of the pre-processed text.
+•	Create an Embedding layer using Keras/TensorFlow.
+•	Define the vocabulary size and embedding dimension.
+•	Convert tokenized sequences into dense vector representations.
+•	Display the shape of the generated embedding representation.
+•	Analyze how words are represented in the embedding space.
+
+
+
+PART C: IMPLEMENTING THE LSTM MODEL
+Perform the following tasks:
+•	Create an input layer for the padded text sequences. 
+•	Add an Embedding layer to generate dense word representations. 
+•	Add an LSTM layer to learn sequential dependencies in the reviews. 
+•	Add a Dense output layer with an appropriate activation function for sentiment classification. 
+•	Compile the model using: 
+o	Appropriate optimizer 
+o	Binary cross-entropy loss 
+o	Accuracy as the evaluation metric 
+•	Display the model architecture and summary.
+
+
+
+PART D: MODEL TRAINING AND SENTIMENT PREDICTION
+Perform the following tasks:
+•	Train the LSTM model using the prepared training dataset. 
+•	Validate the model using the validation dataset. 
+•	Record: 
+o	Training accuracy 
+o	Validation accuracy 
+o	Training loss 
+o	Validation loss 
+•	Visualize: 
+o	Accuracy vs. Epoch 
+o	Loss vs. Epoch 
+•	Evaluate the trained model using the test dataset. 
+•	Predict the sentiment of sample reviews. 
+•	Compare the predicted sentiment with the actual sentiment. 
+•	Calculate appropriate evaluation metrics such as: 
+o	Accuracy 
+o	Precision 
+o	Recall 
+o	F1-score 
+o	Confusion matrix
+
+
+
+EXPECTED OUTCOME
+Students will understand how LSTM networks learn sequential information from textual data and apply them to sentiment classification. Students will learn to perform text preprocessing, tokenization, sequence padding, and embedding generation using NLP libraries. They will build and train an LSTM model and evaluate its ability to classify reviews into positive and negative sentiments.
 
