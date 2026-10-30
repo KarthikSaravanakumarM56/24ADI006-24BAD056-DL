@@ -1,1 +1,55 @@
+PROCEDURE
+PART A: DATASET PREPARATION AND TEXT PREPROCESSING
+Perform the following tasks:
+•	Load a text dataset such as the IMDb movie review dataset.
+•	Explore the dataset and examine sample text entries and their labels.
+•	Check the number of samples and the distribution of class labels.
+•	Separate the dataset into training and testing sets or use the predefined splits.
+•	Load a pretrained tokenizer corresponding to the BERT model.
+•	Tokenize the text using the tokenizer.
+•	Apply padding and truncation to maintain consistent input lengths.
+•	Convert the tokenized data into the required format for model training.
+•	Prepare the dataset for batch-wise processing. 
+
+
+PART B: FINE-TUNING BERT FOR TEXT CLASSIFICATION
+Perform the following tasks:
+•	Load a pretrained BERT model for sequence classification.
+•	Configure the model for the required number of classes.
+•	Prepare the tokenized training and testing datasets.
+•	Define the training parameters, including learning rate, batch size, and number of epochs.
+•	Fine-tune the BERT model using the training dataset.
+•	Evaluate the trained model using the testing dataset.
+•	Calculate appropriate performance metrics, such as accuracy, precision, recall, and F1-score.
+•	Test the model using new text inputs.
+•	Display the predicted class labels and corresponding evaluation results.
+•	Save the fine-tuned model and tokenizer. 
+
+
+PART C: IMPLEMENTING A SEQUENCE-TO-SEQUENCE APPLICATION USING TRANSFORMERS
+Perform the following tasks:
+•	Load a pretrained sequence-to-sequence Transformer model, such as T5-small.
+•	Load the corresponding tokenizer.
+•	Prepare a sample text input for the selected text generation task.
+•	Preprocess the input according to the model's requirements.
+•	Generate output text using the pretrained model.
+•	Apply appropriate generation parameters, such as maximum output length and beam search, where applicable.
+•	Display the input text and the generated output.
+•	Experiment with different input texts and generation settings.
+•	Observe how changes in the input and generation parameters affect the output.
+•	Save the generated outputs for further analysis. 
+
+
+PART D: MODEL TESTING AND OUTPUT ANALYSIS
+Perform the following tasks:
+•	Test the fine-tuned BERT model using sample positive and negative text inputs.
+•	Record the predicted class labels for the test inputs.
+•	Analyze the classification results using the selected evaluation metrics.
+•	Test the sequence-to-sequence model using different input texts.
+•	Compare the generated outputs for different inputs and generation settings.
+•	Examine the relevance, readability, and coherence of the generated text.
+•	Identify possible errors or limitations in the classification and generation outputs.
+•	Compare the applications of BERT-based classification and sequence-to-sequence text generation.
+•	Summarize the observations obtained from both models. 
+
 
